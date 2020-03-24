@@ -1,0 +1,8 @@
+application:
+  name: go-leaf
+  port: 8080
+
+mysql:
+  url: root:123456@(localhost:3306)/go_leaf?charset=utf8mb4&parseTime=True
+  maxidleconns: 10
+  Maxopenconns: 100
